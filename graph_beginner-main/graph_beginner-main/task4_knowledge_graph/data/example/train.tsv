@@ -1,0 +1,8 @@
+alice	likes	bob
+bob	likes	carol
+carol	likes	dave
+dave	likes	alice
+alice	knows	carol
+bob	knows	dave
+carol	knows	alice
+dave	knows	bob

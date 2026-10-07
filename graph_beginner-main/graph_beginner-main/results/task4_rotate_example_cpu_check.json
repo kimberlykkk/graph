@@ -1,0 +1,15 @@
+{
+  "task": "knowledge_graph_completion",
+  "model": "rotate",
+  "embedding_dim": 8,
+  "learning_rate": 0.001,
+  "epochs": 1,
+  "entities": 4,
+  "relations": 2,
+  "validation_mrr": 0.333333,
+  "validation_hits_at_10": 1.0,
+  "test_mrr": 0.416667,
+  "test_hits_at_10": 1.0,
+  "device": "cpu",
+  "verification_scope": "tiny bundled example graph; pipeline check, not a benchmark"
+}

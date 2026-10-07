@@ -1,0 +1,15 @@
+{
+  "task": "node_classification",
+  "dataset": "Cora",
+  "model": "gcn",
+  "mode": "full",
+  "layers": 2,
+  "learning_rate": 0.01,
+  "epochs": 1,
+  "test_accuracy": 0.106,
+  "validation_accuracy": 0.1,
+  "train_seconds": 0.088,
+  "total_seconds": 0.112,
+  "device": "cpu",
+  "verification_scope": "one-epoch execution check; not a converged benchmark"
+}

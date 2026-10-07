@@ -1,0 +1,12 @@
+{
+  "task": "graph_classification",
+  "dataset": "synthetic_local_graphs",
+  "model": "gcn",
+  "pooling": "avg",
+  "epochs": 1,
+  "loss": 0.635485,
+  "accuracy": 0.5,
+  "device": "cpu",
+  "verification_scope": "local synthetic pipeline check only",
+  "note": "MUTAG was not evaluated: downloading its dataset was interrupted by the remote data server."
+}

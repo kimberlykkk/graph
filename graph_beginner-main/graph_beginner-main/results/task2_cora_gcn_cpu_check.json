@@ -1,0 +1,17 @@
+{
+  "task": "link_prediction",
+  "dataset": "Cora",
+  "model": "gcn",
+  "mode": "full",
+  "layers": 2,
+  "learning_rate": 0.01,
+  "epochs": 1,
+  "validation_auc": 0.67458,
+  "validation_accuracy": 0.5,
+  "test_auc": 0.674722,
+  "test_accuracy": 0.5,
+  "train_seconds": 0.058,
+  "total_seconds": 0.114,
+  "device": "cpu",
+  "verification_scope": "one-epoch execution check; not a converged benchmark"
+}
